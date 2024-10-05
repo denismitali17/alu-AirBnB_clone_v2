@@ -6,9 +6,9 @@ from fabric.api import env, local, put, run
 from datetime import datetime
 from os.path import exists
 
-env.hosts = ['3.91.216.228', '18.207.151.194']
+env.hosts = ['3.85.170.42', '44.220.160.158']
 env.user = "ubuntu"
-env.key = "~/.ssh/id_rsa"
+env.key = "~/.ssh/school"
 
 
 def do_pack():
